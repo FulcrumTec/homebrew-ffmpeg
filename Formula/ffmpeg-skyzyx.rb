@@ -1,8 +1,8 @@
-class FfmpegSkyzyx < Formula
+class FfmpegFulcrum < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
-  url "https://ffmpeg.org//releases/ffmpeg-7.0.tar.xz"
-  sha256 "4426a94dd2c814945456600c8adfc402bee65ec14a70e8c531ec9a2cd651da7b"
+  url "https://ffmpeg.org//releases/ffmpeg-7.1.tar.xz"
+  sha256 "40973d44970dbc83ef302b0609f2e74982be2d85916dd2ee7472d30678a7abe6"
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   depends_on "make" => :build
